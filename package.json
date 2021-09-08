@@ -1,0 +1,21 @@
+{
+  "name": "data.mos.ru",
+  "version": "0.1.0",
+  "description": "data.mos.ru backup tool",
+  "main": "index.js",
+  "repository": "https://github.com/definiteIymaybe/data.mos.ru",
+  "author": "mikhail sergienko <mikhail.sergienko@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@turf/truncate": "^6.5.0",
+    "axios": "^0.21.4",
+    "json2csv": "^5.0.6"
+  },
+  "scripts": {
+    "60562": "node ./scripts/60562.js"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
